@@ -1,0 +1,60 @@
+/* Wild card - applies to EVERYTHING */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+
+#top {
+    width: 600px;
+    margin: 30px;
+    border: 5px solid black;
+    padding: 20px 5px;
+    background-color: rgb(166, 166, 248);
+}
+
+/* body {
+    background-color: rgb(245, 179, 155);
+} */
+
+h1 {
+    color: rgb(103, 103, 221);
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* This is a comment */
+/* ctrl(cmd) + / to make a comment*/
+
+#orange {
+    color: orange;
+    text-align: left;
+}
+
+.greenBG {
+    background-color: rgb(99, 248, 156);
+}
+
+/* CSS Strengths
+basic tag (ex: h1, p, h4, li) - 1
+classes - 10
+id - 100
+*/
+
+#red {
+    width: 300px;
+    height: 600px;
+    background-color: red;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 300px;
+}
+
+#blue {
+    width: 300px;
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
