@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* utility classes */
+.container {
+  /* background-color: lavender; */
+  width: 900px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.byline {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.profile-pic {
+  width: 50px;
+}
+
+h1, h2, p {
+  margin-bottom: 1em;
+}
+
+/* nav rules */
+nav {
+  /* background-color: hotpink; */
+  min-height: 60px;
+  padding: .5em;
+}
+
+nav ul {
+  list-style: none;
+  gap: 1.5em;
+}
+
+#subscribe {
+  background-color: #ee7c0c;
+  border: 0;
+  padding: 1em 1em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* hero rules */
+#hero {
+  /* background-color: yellow; */
+  min-height: 150px;
+  padding: 2em .5em;
+  gap: 1.5em;
+}
+
+#hero-image {
+  width: 400px;
+}
+
+/* features rules */
+#features {
+  /* background-color: blue; */
+  min-height: 300px;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+
+.feature {
+  flex: 1;
+  /* background-color: black; */
+  /* height: 100px; */
+  /* outline: 1px dashed red; */
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-description {
+  padding: .5em;
+}
+
+/* footer rules */
+footer {
+  /* background-color: orange; */
+  min-height: 80px;
+}
