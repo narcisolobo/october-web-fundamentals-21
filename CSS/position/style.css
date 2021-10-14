@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: green;
+}
+
+h2, h3, h1, p {
+  text-align: center;
+}
+
+.black-bg {
+  background-color: black;
+  min-height: 150px;
+  width: 600px;
+  margin: 0 auto;
+  /* shortcut for horizontal centering */
+}
+
+.square {
+  width: 50px;
+  min-height: 50px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.static {
+  position: static;
+  top: 20px;
+  left: 20px;
+}
+
+.relative {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Position absolute is widely used with the ::before and the ::after pseudoclasses. Kevin Powell on YouTube. */
+
+.absolute {
+  position: absolute;
+  /* ABUSING THE POSITION PROPERTY */
+  /* top: 670px;
+  left: 400px; */
+  top: 20px;
+  left: 20px;
+}
+
+.relative-parent {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+}
+
+.sticky {
+  position: sticky;
+  top: 20px;
+}
+
+.large-bottom {
+  margin-bottom: 100vh;
+}

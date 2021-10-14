@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  outline: 1px red dashed;
+}
+
+.centered {
+  width: 400px;
+  min-height: 400px;
+  background-color: black;
+}
