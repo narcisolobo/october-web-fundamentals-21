@@ -1,0 +1,22 @@
+* {
+    font-family: 'Birthstone Bounce', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url("elephants.gif");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
