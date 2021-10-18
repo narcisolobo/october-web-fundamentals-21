@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 50px;
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav-container h1 {
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 2;
+  background-color: yellow;
+  min-height: 400px;
+}
+
+.user-card {
+  background-color: aqua;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+
+.education {
+  background-color: darkgoldenrod;
+  min-height: 200px;
+}
+
+.right-column {
+  flex: 1;
+  background-color: yellowgreen;
+  min-height: 400px;
+}
+
+.requests {
+  background-color: crimson;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.connections {
+  background-color: coral;
+  min-height: 100px;
+}
