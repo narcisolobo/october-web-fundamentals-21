@@ -1,0 +1,17 @@
+Full CRUD
+Create, Read, Update, and Destroy
+
+Python - Flask
+Java - Spring MVC
+C# - dotnet
+MERN - Mongo DB, Express.js, React.js, Node.js
+
+Language Fundamentals
+Object Oriented Programming
+Framework - routing (controllers), urls, templates, databases - MVC (Model, View, Controller)
+3rd week - belt exam, you can get a red or a black belt.
+Red belt - covers everything you learned.
+Black belt - may cover things you have not learned.
+
+A red belt and a project are more valuable than a black belt and no project.
+
